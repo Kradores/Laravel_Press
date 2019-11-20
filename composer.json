@@ -2,8 +2,22 @@
     "name": "anoroc/press",
     "description": "An elegant markdown-powered blog for the Laravel framework.",
     "license": "MIT",
-    "require": {},
+    "require": {
+        "erusev/parsedown": "^1.7"
+    },
     "require-dev": {
         "orchestra/testbench": "^4.3"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Press\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Press\\Tests\\": "tests/"
+        }
     }
 }

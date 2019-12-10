@@ -3,7 +3,6 @@
 namespace Press\Tests;
 
 use Press\MarkdownParser;
-use Orchestra\Testbench\TestCase;
 
 class MarkdownTest extends TestCase
 {

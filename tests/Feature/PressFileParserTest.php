@@ -3,7 +3,6 @@
 namespace Press\Tests;
 
 use Carbon\Carbon;
-use Orchestra\Testbench\TestCase;
 use Press\PressFileParser;
 
 class PressFileParserTest extends TestCase
